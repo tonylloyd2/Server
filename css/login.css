@@ -1,0 +1,87 @@
+body {
+    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 40px;
+}
+
+h1 {
+    color: #4CAF50;
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+
+.form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.form h2 {
+    margin: 0 0 20px;
+}
+
+/* fixing the username input  */
+.form input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 10px 5px;
+    width: 100%;
+}
+
+input#register, input#login{
+    background-color: #35b8c2;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    margin: 20px 0 auto;
+    padding: 10px;
+    width: 472px;
+}
+
+
+.form button:hover {
+    background-color: #0c4b48;
+}
+
+.form p {
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form a {
+    color: #0c4b48;
+    text-decoration: none;
+}
+
+.form a:hover {
+    text-decoration: underline;
+}
+
+.signup-form {
+    display: none;
+}
+
+.password-container {
+    position: relative;
+  }
+  .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
