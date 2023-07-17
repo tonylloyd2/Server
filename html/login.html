@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/login.css" />
+    <script src="../js/login.js"></script>
+    <title>Document</title>
+</head>
+<body> 
+    <div class="container">
+    <div class="form">
+      <form class="login-form" method="post" action="#" enctype="multipart/form-data" >
+        <h2>Login</h2>
+        <input type="text" placeholder="Email" id="login_email"/>
+        <div class="password-container">
+          <input type="password" id="login_password" name="password" placeholder="Password" >
+          <!-- <span class="toggle-password" onclick="showSignUpPassword()"> -->
+            <!-- <i class="fas fa-eye"></i> -->
+          </span>
+        </div>
+        <input type="submit" name="login_button" value="Log in" id="login">
+        <p>
+          Not registered yet?
+          <a href="#" id="signup-link" onclick="toggle()">Create an account</a>
+        </p>
+      </form>
+      <form class="signup-form" method="post" action="#" enctype="multipart/form-data">
+        <h2>Register</h2>
+        <input type="text" placeholder="Username" id="username" />
+        <input type="email" placeholder="Email" id="email" />
+        <!-- enter password -->
+        <div class="password-container">
+          <input type="password" id="password" name="password" placeholder="Password">
+          <span class="toggle-password" onclick="showPassword()">
+            <i class="fas fa-eye"></i>
+          </span>
+        </div>
+        <!-- re enter password-->
+        <div class="password-container">
+          <input type="password" id="confirm_password" name="password" placeholder="Re-enter password">
+          <span class="toggle-password" onclick="showConfirmPassword()">
+            <i class="fas fa-eye"></i>
+          </span>
+        </div>
+        <input type="submit" name="register_button" value="Register" id="register">
+        <p>Already registered? <a href="#" id="login-link">Log in</a></p>
+      </form>
+      <script>
+        
+    
+      </script>
+    </div>
+    </div>
+</body>
+</html>        
+        
+        
