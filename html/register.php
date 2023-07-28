@@ -30,7 +30,7 @@ if ($stmt->affected_rows > 0) {
     # set the session to email
     $_SESSION['email'] = $email;
     # redirect to dashboard.php
-    header("Location: ./dashboard.php");
+    header("Location: ./index.html");
 } else {
     echo "Failed to insert data";
 }

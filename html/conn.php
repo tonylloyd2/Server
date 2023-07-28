@@ -2,7 +2,7 @@
 // // // Database configuration variables
 $host = "localhost"; // Replace with your database host
 $username = "root"; // Replace with your database username
-$password = "1234"; // Replace with your database password
+$password = "1212"; // Replace with your database password
 $database = "server"; // Replace with your database name
 
 // // // Establishing the database connection

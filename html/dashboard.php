@@ -64,5 +64,5 @@ if (isset($_SESSION['email'])) {
 }
 #redirect to index.html if session not set
 else {
-  header("Location: ./index.php");
+  header("Location: ./index.html");
 }
